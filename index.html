@@ -1,40 +1,246 @@
 <!doctype html>
-<html>
+<html lang="en">
+
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>What does it feel like to touch an orbital? </title>
+
+		<meta name="description" content="Introducing Evince - a visualization module for the Hylleraas Software Platform">
+		<meta name="author" content="Audun Skau Hansen">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/solarized.css" id="theme">
 
-		<!-- Theme used for syntax highlighted code -->
+		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+
 	</head>
+
 	<body>
+
 		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<p>
+					<a href="github.com/audunsh/evince">
+						<img src="https://github.com/audunsh/evince/blob/master/graphics/evince_logo.png?raw=true" alt="evince logo" style="height: 300px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</a>
+					<h3>What does it feel like to touch an orbital?</h3>
+				</p>
+					<p>
+						<small>Audun Skau Hansen and the Hylleraas Software Platform (HSP) team</small>
+					</p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-black-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '60px' align = 'right'>
+				</section>
+
+
+				<section data-background-iframe="https://www.mn.uio.no/kjemi/studier/utdanningsleder/kan-man-ta-pa-en-orbital.html" data-background-interactive>
+					<div style="position: absolute; width: 70%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						On a side-note:
+						<h2>"Kan man ta på en orbital?"</h2>
+						<h4>("Can you touch an orbital?")</h4>
+						Blog-post on the university pages, discussing the physical status of quantum states.
+						<p><small><a href="https://www.mn.uio.no/kjemi/studier/utdanningsleder/kan-man-ta-pa-en-orbital.html">https://www.mn.uio.no/kjemi/studier/utdanningsleder</a></small></p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-white-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+					</div>
+				</section>
+
+				<section data-auto-animate>
+					<h2>What do we need from a visualization toolkit on the HSP?</h2>
+					<p></p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-black-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+				</section>
+
+				<section data-auto-animate>
+					<h4>What do we need from a visualization toolkit on the HSP?</h4>
+						<img src="https://www.python.org/static/img/python-logo@2x.png" alt="python logo" style="height: 200px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<p></p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-black-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+				</section>
+
+				<section data-auto-animate>
+					<h4>What do we need from a visualization toolkit on the HSP?</h4>
+						<img src="https://jupyter.org/assets/homepage/main-logo.svg" alt="jupyter logo" style="height: 150px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+						<p></p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-black-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+					</section>
+
+
+
+				<section data-auto-animate>
+					<h4>What do we need from a visualization toolkit on the HSP?</h4>
+						<img src="research.png" alt="jupyter logo" style="height: 350px; margin: 0 auto 2rem auto; background: transparent;" class="demo-logo">
+						<p></p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-black-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+					</section>
+
+				<section data-background-iframe="https://pyviz.org/tools.html" data-background-interactive>
+					<div style="position: absolute; width: 70%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>The rich world of Python-visualization</h2>
+						What more could you ask for?
+						<p><small><a href="https://pyviz.org/tools.html">https://pyviz.org/tools.html</a></small></p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-white-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+					</div>
+				</section>
+
+				<section data-background-iframe="http://nglviewer.org/nglview/latest/" data-background-interactive>
+					<div style="position: absolute; width: 70%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>NGLView</h2>
+						<p><small><a href="https://github.com/nglviewer/nglview">https://github.com/nglviewer/nglview</a></small></p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-white-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+					</div>
+				</section>
+
+				<section data-background-iframe="http://3dmol.csb.pitt.edu/" data-background-interactive>
+					<div style="position: absolute; width: 70%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>3DMol & Py3DMol</h2>
+						<p><small><a href="http://3dmol.csb.pitt.edu/">http://3dmol.csb.pitt.edu/</a></small></p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-white-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+					</div>
+				</section>
+
+
+				<section id="fragments">
+					<h3>If the sky was the limit?</h3>
+					<p> 
+					<span class="fragment">A visualization tool with <font color="#008888">high quality</font> 3D graphics</span> 
+					<span class="fragment">, GPU-based <font color="#008888">performance</font></span>
+					<span class="fragment">, user friendly <font color="#008888">customizability</font></span>
+					<span class="fragment">, cross-platform <font color="#008888">portability</font></span>
+					<span class="fragment"> and seamless <font color="#008888">interactivity.</font></span>
+				</p>
+				<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-black-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+				</section>
+
+				
+
+				<section data-background="https://upload.wikimedia.org/wikipedia/commons/a/ae/Amazing_image_of_the_Earth.Original_from_NASA._Digitally_enhanced_by_rawpixel.jpg" data-background-opacity = 0.2 data-background-color="black">
+					<h2 class="r-fit-text">THE BIG PICTURE</h2>
+				<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-white-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+				</section>
+
+				<section data-background-opacity = 0.2 data-background-color="#000010">
+					<h3>From Facebook to</h3>
+					<img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Meta-Logo.png" alt="meta logo" style="height: 200px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					<h4>About 23% of Meta's workforce is focused on VR and AR technologies.</h4>
+				<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-white-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+				</section>
+
+				<section data-background-iframe="https://docs.omniverse.nvidia.com/" data-background-interactive>
+					<div style="position: absolute; width: 70%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>NVIDIA's Omniverse</h2>
+						<p>"multi-GPU real-time reference development platform for 3D simulation and design collaboration"</p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-white-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+					</div>
+				</section>
+
+						
+
+				<section>
+					<h3>Tools for the next-generation internet</h3>
+
+					<a href="https://www.khronos.org/webgl/">
+					<img src="https://upload.wikimedia.org/wikipedia/commons/2/25/WebGL_Logo.svg" alt="webgl logo" style="height: 70px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+				</a>
+				<a href="https://www.w3.org/TR/webgpu/">
+					<img src="https://user-images.githubusercontent.com/3478847/122788930-a6667c00-d26b-11eb-98de-6f0bd227e55d.png" alt="webgpu logo" style="height: 70px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+				</a>
+
+					<a href="https://immersiveweb.dev/">
+					<img src="https://immersiveweb.dev/webxr-logo.svg" alt="webgpu logo" style="height: 70px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+				</a>
+				<a href="www.threejs.org">
+					<img src="https://raw.githubusercontent.com/mrdoob/three.js/38bf5f47a8c01a1d12d16a41b4097dc9ee31daad/files/icon.svg" alt="threejs logo" style="height: 70px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+				</a>
+
+				<a href="www.babylonjs.com">
+					<img src="https://d33wubrfki0l68.cloudfront.net/b39661bbf642a09168d424b5c1f48076d23c8fa3/44cb5/assets/img/babylonidentity.svg" alt="threejs logo" style="height: 70px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+				</a>
+				</section>
+
+				<section data-background-color="#ffffff">
+					<img src="https://m.media-amazon.com/images/I/61+XMJlGyqL._AC_SL1000_.jpg" alt="widget" style="height: 600px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+				</section>
+
+
+				<section data-background-iframe="https://jupyter.org/" data-background-interactive>
+					<div style="position: absolute; width: 70%; right: 0; box-shadow: 0 1px 4px rgba(0,0,0,0.5), 0 5px 25px rgba(0,0,0,0.2); background-color: rgba(0, 0, 0, 0.9); color: #fff; padding: 20px; font-size: 20px; text-align: left;">
+						<h2>Project Jupyter</h2>
+						<p>"By being a pure web application using HTML, Javascript, and CSS, the Notebook can get all the web technology improvement for free."</p>
+						<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-white-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+					</div>
+				</section>
+				
+
+				<section data-background-color="#ffffff">
+					<h2>Jupyter Widgets</h2>
+					<img src="https://ipywidgets.readthedocs.io/en/stable/_images/WidgetModelView.png" alt="widget" style="height: 400px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+				<p><small>from <a href="https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20Basics.html">https://ipywidgets.readthedocs.io/en/stable/examples/Widget%20Basics.html</a></small></p>
+				</section>
+
+				<section data-background-iframe="./c60_2.html" data-background-interactive>
+					<h2><font color="#FFFF99">Meet Evince</font></h2>
+					<a href="github.com/audunsh/evince">
+						<img src="https://github.com/audunsh/evince/blob/master/graphics/evince_logo.png?raw=true" alt="evince logo" style="height: 200px; margin: 0 auto 4rem auto; background: transparent;" class="demo-logo">
+					</a>
+					<h3><font color="#CC2222">A</font> <font color="#FFFF99">jupyter widget</font> <font color="#BB2222">for the HSP</font></h3>
+				    <span class="fragment">"A visualization tool with <font color="#008888">high quality</font> 3D graphics"</span> 
+					<span class="fragment">, cross-platform <font color="#008888">portability</font></span>
+					<img data-src="https://www.mn.uio.no/hylleraas/english/about/internal/graphical-profile/visual-profile/hylleraas-%E2%80%93-logo-%E2%80%93-white-%E2%80%93%C2%A0screen-%E2%80%93-rgb.png" height = '50px' align = 'right'>
+					
+				</section>
+				
+				<section data-background-color="#ffffff">
+					<iframe src="./gto_addition.html" title="" width = "80%" height = "600px"></iframe>
+					<span class="fragment">GPU-based <font color="#008888">performance</font></span>
+				</section>
+
+				<section>
+					<span class="fragment"> seamless <font color="#008888">interactivity.</font></span>
+				</section>
+
+				<section>
+					<h2>Customizability and extendability?</h2>
+					<p>
+						No problem, but this is where we leave the slides and visit the <a href="https://audunsh.github.io/evince">Evince project pages</a>.
+					</p>
+				</section>
+				
+
 			</div>
+
 		</div>
 
 		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
 		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
 		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
 			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
 				hash: true,
 
 				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
 			});
+
 		</script>
+
 	</body>
 </html>
